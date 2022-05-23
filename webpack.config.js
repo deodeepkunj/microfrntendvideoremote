@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
     mode: "development",
-    output: { publicPath: "http://localhost:3003/" },
+    output: { publicPath: "http://microfrontendvideoremote.netlify.app/" },
     devServer: {
         port: 3003
     },
